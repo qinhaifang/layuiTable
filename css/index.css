@@ -1,0 +1,108 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    overflow: hidden;
+    background: #0f0d31;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.header {
+    top:0;
+    width: 100%;
+    height: 55px;
+    padding: 0 20px;
+    min-width: 1366px;
+    box-sizing: border-box;
+}
+.bg_header {
+    width: 100%;
+    height:55px;
+    background:url(../image/title.png) no-repeat;
+    background-size: 100% 100%;
+}
+.t_title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 55px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.fl {
+    float: left;
+}
+#time{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    font-size: 16px;
+    color: #a7c4ec;
+}
+.content{
+    display: flex;
+    height: 90%;
+    margin: 10px;
+}
+.content .leftBar{
+    width: 15%;
+    float: left;
+    box-shadow: 0 0px 10px #2C58A6;
+    border: 1px solid #345f92;
+}
+.content .right{
+    width: 94%;
+    float: right;
+    margin-left: 10px;
+    box-shadow: 0 0px 10px #2C58A6;
+    /*border: 1px solid #345f92;*/
+}
+.layui-tree-txt,.layui-tree-icon .layui-icon{
+    color: #fff;
+}
+.layui-tree-line .layui-tree-entry:hover .layui-tree-txt{
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+.layui-form-checked[lay-skin=primary] i{
+    border-color: #286aa3!important;
+    background-color: #286aa3;
+}
+.table{
+    /*border:1px solid #345f92;*/
+    padding:0 10px;
+}
+.table1{
+    width: 98.5%;
+    height: 39%;
+    border:1px solid #345f92;
+    margin-bottom: 10px;
+}
+.table2{
+    width: 98.5%;
+    height: 59%;
+    border:1px solid #345f92;
+}
+.table .title{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #345f92;
+}
+.table .title img{
+    float: right;
+    position: relative;
+    top: 10px;
+}
+.wrap{
+    height: 200px;
+    overflow: auto;
+}
+.layui-table,.layui-table thead tr, .layui-table-header{
+    background: #0f0d31;
+    color: #fff;
+}
