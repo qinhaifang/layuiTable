@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>煤矿信息化综合监控系统平台</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="bg_header">
+            <div class="header_nav fl t_title">
+                煤矿信息化综合监控系统平台
+            </div>
+            <div id="time"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="content">
+        <div class="leftBar">
+            <div id="tree" class="demo-tree demo-tree-box"></div>
+        </div>
+        <div class="right list">
+            <div class="table table2">
+                <div class="title">
+                    <form class="layui-form" action="">
+                        <div class="layui-form-item">
+                            <!--<div class="layui-inline">-->
+                                <!--<label class="layui-form-label">煤矿</label>-->
+                                <!--<div class="layui-input-inline" style="width: 100px">-->
+                                    <!--<select name="modules" lay-verify="required" lay-search="" lay-filter='meikuang'>-->
+                                        <!--<option value="">请选择</option>-->
+                                    <!--</select>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="layui-inline">-->
+                                <!--<label class="layui-form-label">报警类型</label>-->
+                                <!--<div class="layui-input-inline" style="width: 100px">-->
+                                    <!--<select name="modules" lay-verify="required" lay-search=""  lay-filter='baojing'>-->
+                                        <!--<option value="">请选择</option>-->
+                                    <!--</select>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="layui-inline">
+                                <label class="layui-form-label">传感器类型</label>
+                                <div class="layui-input-inline" style="width: 165px">
+                                    <select name="modules" lay-verify="required" lay-search="" lay-filter='sensor'>
+                                        <option value="">请选择</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!--<div class="layui-inline">-->
+                                <!--<label class="layui-form-label">范围</label>-->
+                                <!--<div class="layui-input-inline" style="width: 150px">-->
+                                    <!--<input type="text" class="layui-input fl" style="width: 60px">-->
+                                    <!--<div class="fl p10">至</div>-->
+                                    <!--<input type="text" class="layui-input fl" style="width: 60px">-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="layui-inline">-->
+                                <!--<label class="layui-form-label">时间</label>-->
+                                <!--<div class="layui-input-inline">-->
+                                    <!--<input type="text" class="layui-input" id="date" placeholder="请选择开始和结束时间 ">-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<button type="button" class="layui-btn layui-btn-normal" onclick="searchBtn()"><img src="image/search.png" alt="" >搜索</button>-->
+                        </div>
+                    </form>
+
+                </div>
+                <table class="layui-hide" id="tableData2"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="layui/layui.js"></script>
+<script src="js/list.js"></script>
+<script>
+
+</script>
+</body>
+</html>

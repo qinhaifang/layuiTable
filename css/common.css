@@ -26,6 +26,10 @@ html,body{
 .br{
 	border-right:1px solid #d5d5d5;
 }
+.p10{
+	padding: 0 5px;
+	display: inline-block;
+}
 .bb{border-bottom: 1px solid #d5d5d5;position:relative}
 .w-10{
 	width:10%;

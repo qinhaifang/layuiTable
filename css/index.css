@@ -88,15 +88,21 @@ body, html {
     height: 59%;
     border:1px solid #345f92;
 }
+.list .table2{
+    width: 98.5%;
+    border:1px solid #345f92;
+}
 .table .title{
     height: 40px;
     line-height: 40px;
     border-bottom: 1px solid #345f92;
+    position: relative;
 }
 .table .title img{
     float: right;
     position: relative;
     top: 10px;
+    padding:0 10px;
 }
 .wrap{
     height: 200px;
@@ -105,4 +111,71 @@ body, html {
 .layui-table,.layui-table thead tr, .layui-table-header{
     background: #0f0d31;
     color: #fff;
+}
+.table1 thead tr,.table1 .layui-table-header,.table1 tbody tr{
+    background: #A64646;
+}
+.table1 tbody tr:hover {
+    background-color: #A64646!important;
+}
+input{
+    background: inherit;
+    border: 0;
+}
+#date{
+    width: 300px;
+}
+.layui-input{
+    color: #fff;
+    background: inherit;
+}
+.layui-form-select .layui-input{
+    background: inherit;
+    color: #fff;
+}
+.layui-form-select{
+    border: 1px solid #9DB3E5;
+    border-radius: 4px;
+}
+.layui-form-select dl dd{
+    color: #0f0d31;
+}
+.layui-form-label{
+    width: inherit;
+    padding: 9px 4px;
+}
+.layui-form-item .layui-inline{
+    margin-right: 0;
+}
+.layui-form-select dl dd.layui-this{
+    background-color:#0f0d31
+}
+input::-webkit-input-placeholder{
+    color:#ccc;
+    font-size:14px;
+}
+input:-moz-placeholder{
+    color:#ccc;
+    font-size:14px;
+}
+input::-moz-placeholder{
+    color:#ccc;
+    font-size:14px;
+}
+input:-ms-input-placeholder{
+    color:#ccc;
+    font-size:14px;
+}
+.layui-btn{
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em{
+    background-color: #1e9fff
+}
+.layui-table-page .layui-laypage a, .layui-table-page .layui-laypage span.layui-laypage-curr,.layui-laypage .layui-laypage-skip,.layui-laypage span{
+    color: #fff;
+}
+.layui-table tbody tr:hover {
+    background-color: inherit;
 }

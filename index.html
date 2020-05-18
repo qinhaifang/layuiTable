@@ -22,7 +22,7 @@
         <div class="leftBar">
             <div id="tree" class="demo-tree-more"></div>
         </div>
-        <div class="right">
+        <div class="right ">
             <div class="table table1">
                 <div class="title">
                     模拟量传感器历史报警列表
@@ -34,6 +34,12 @@
                 <div class="title">
                     模拟量传感器历史报警列表
                     <img src="image/open.png" onclick="screen(2)" width="20px" alt="全屏">
+                    <div class="layui-inline fr">
+                        <label class="layui-form-label">时间</label>
+                        <div class="layui-input-inline">
+                            <input type="text" class="layui-input" id="date" placeholder="请选择开始和结束时间 ">
+                        </div>
+                    </div>
                 </div>
                 <table class="layui-hide" id="tableData2"></table>
             </div>
@@ -49,3 +55,4 @@
 </script>
 </body>
 </html>
+
